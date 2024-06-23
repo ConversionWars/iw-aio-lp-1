@@ -1,0 +1,84 @@
+body {font-family: 'Open Sans', sans-serif;font-weight:400;font-size:24px;background:#222;}
+a, a:hover, a:visited, a:active {text-decoration: none;}
+
+.img-responsive {margin:0 auto;}
+.pos {position:relative;}
+.ultra-wrap {max-width:1920px;margin:0 auto;}
+
+.cta-btn {
+	display:block;
+	width:100%;
+	height:80px;
+	line-height:80px;
+	margin:10px 0;
+	font-family: 'Fjalla One', sans-serif;
+	color:#333;
+	text-align:center;
+	text-transform:uppercase;
+	border-radius:5px;
+	font-size:40px;
+	border:1px solid #e88f2a;
+	-webkit-box-shadow:0 -7px 13px rgba(0,0,0,0.35);
+	box-shadow:0 -7px 13px rgba(0,0,0,0.35);
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffb300+0,e88f2a+100 */
+	background: rgb(255,179,0); /* Old browsers */
+	background: -moz-linear-gradient(-45deg, rgba(255,179,0,1) 0%, rgba(232,143,42,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, rgba(255,179,0,1) 0%,rgba(232,143,42,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, rgba(255,179,0,1) 0%,rgba(232,143,42,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb300', endColorstr='#e88f2a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.cta-btn:hover {color:#333;}
+.signup {
+	border-radius:15px;
+	border:5px solid #ccc;
+	padding-bottom:15px;
+	margin-top:15px;
+	color:#333;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cccccc+0,ffffff+30,ffffff+70,cccccc+100 */
+	background: rgb(204,204,204); /* Old browsers */
+	background: -moz-linear-gradient(-45deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(204,204,204,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, rgba(204,204,204,1) 0%,rgba(255,255,255,1) 30%,rgba(255,255,255,1) 70%,rgba(204,204,204,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, rgba(204,204,204,1) 0%,rgba(255,255,255,1) 30%,rgba(255,255,255,1) 70%,rgba(204,204,204,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#cccccc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.signup form {padding:0 15px;margin-top:-20px;}
+.signup input {width:100%;height:50px;border-radius:5px;background:#ddd;border:1px solid #bbb;color:#666;text-transform:uppercase;font-family: 'Fjalla One', sans-serif;font-size:30px;line-height:30px;padding:0 15px;margin-bottom:15px;}
+.signup input.s1 {width:16px;height:16px;border:1px solid #bbb;border-radius:5px;margin-top:5px;}
+.signup div.s1 {font-size:10px;width:92%;float:right;}
+.signup p {text-align:center;font-size:16px;}
+.signup button.cta-btn {position:relative;}
+.signup button.cta-btn::after {
+	position:absolute;
+	content:' ';
+	background-size:100%;
+	background:url(../img/arrow-win.png) center top no-repeat;
+	left:-213px;
+	bottom:5px;
+	width:228px;
+	height:202px;
+	pointer-events: none;
+}
+
+@media (min-width: 1921px) {.ultra-wrap {-webkit-box-shadow:0 0 50px rgba(0,0,0,0.35); box-shadow:0 0 50px rgba(0,0,0,0.35);}}
+@media (max-width: 1199px) {
+	body {font-size:18px;}
+	.signup input {height: 40px;font-size: 18px;line-height: 40px;margin-bottom: 10px;}
+	.signup p {font-size: 12px;}
+	.cta-btn {height: 60px;line-height: 60px;font-size: 30px;}
+}
+@media (max-width: 991px) {
+	body {font-size:14px;}
+	.cta-btn {height: 50px;line-height: 50px;font-size: 20px;}
+	.signup button.cta-btn::after {display:none;}
+	.signup input {height: 30px;font-size: 16px;line-height: 30px;}
+	.signup div.s1 {width: 85%;}
+	.signup p {font-size: 9px;}
+}
+@media (max-width: 767px) {
+	.hero, .tier-2, .tier-3, .tier-4, .tier-5, .tier-6, .tier-7, .tier-8 {height:auto;}
+	body {font-size:14px;}
+	.signup img{width:100%;}
+	.signup input {height: 50px;font-size: 16px;line-height: 50px;}
+	.signup input.s1 {width: 26px;height: 26px;}
+	.signup div.s1 {font-size: 12px;width: 90%;}
+}
