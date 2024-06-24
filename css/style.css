@@ -1,84 +1,122 @@
-body {font-family: 'Open Sans', sans-serif;font-weight:400;font-size:24px;background:#222;}
+body {font-family: 'Open Sans', sans-serif;font-weight:400;font-size:24px;background:#101113;color:#101113;}
 a, a:hover, a:visited, a:active {text-decoration: none;}
+h1, h2, h3, h4, h5, h6 {font-family: 'Braah One', sans-serif;line-height:0.85;}
+h1, h2, h5, h6 {text-transform:uppercase;}
 
 .img-responsive {margin:0 auto;}
 .pos {position:relative;}
 .ultra-wrap {max-width:1920px;margin:0 auto;}
+.float-left {float:left;}
+.float-right {float:right;}
+.clearfix {float:none;}
 
+.black {color:#101113;}
+.white {color:#fff;}
+.green {color:#8abd59;}
+.pink {color:#ed2490;}
+.purple {color:#814a9d;}
+.red {color:#ef4952;}
+.green_bg {background-color:#8abd59;}
+.pink_bg {background-color:#ed2490;}
+.purple_bg {background-color:#814a9d;}
+.red_bg {background-color:#ef4952;}
+
+.cta {padding:0;position:relative;}
 .cta-btn {
 	display:block;
 	width:100%;
-	height:80px;
-	line-height:80px;
+	height:70px;
+	line-height:64px;
 	margin:10px 0;
-	font-family: 'Fjalla One', sans-serif;
-	color:#333;
+	font-family: 'Bruno Ace SC', cursive;
+	color:#101113;
 	text-align:center;
 	text-transform:uppercase;
-	border-radius:5px;
-	font-size:40px;
-	border:1px solid #e88f2a;
-	-webkit-box-shadow:0 -7px 13px rgba(0,0,0,0.35);
-	box-shadow:0 -7px 13px rgba(0,0,0,0.35);
-	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffb300+0,e88f2a+100 */
-	background: rgb(255,179,0); /* Old browsers */
-	background: -moz-linear-gradient(-45deg, rgba(255,179,0,1) 0%, rgba(232,143,42,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(-45deg, rgba(255,179,0,1) 0%,rgba(232,143,42,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(135deg, rgba(255,179,0,1) 0%,rgba(232,143,42,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb300', endColorstr='#e88f2a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-}
-.cta-btn:hover {color:#333;}
-.signup {
 	border-radius:15px;
-	border:5px solid #ccc;
-	padding-bottom:15px;
-	margin-top:15px;
-	color:#333;
-	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cccccc+0,ffffff+30,ffffff+70,cccccc+100 */
-	background: rgb(204,204,204); /* Old browsers */
-	background: -moz-linear-gradient(-45deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(204,204,204,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(-45deg, rgba(204,204,204,1) 0%,rgba(255,255,255,1) 30%,rgba(255,255,255,1) 70%,rgba(204,204,204,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(135deg, rgba(204,204,204,1) 0%,rgba(255,255,255,1) 30%,rgba(255,255,255,1) 70%,rgba(204,204,204,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#cccccc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	font-size:30px;
+	border:4px solid #101113;
 }
-.signup form {padding:0 15px;margin-top:-20px;}
-.signup input {width:100%;height:50px;border-radius:5px;background:#ddd;border:1px solid #bbb;color:#666;text-transform:uppercase;font-family: 'Fjalla One', sans-serif;font-size:30px;line-height:30px;padding:0 15px;margin-bottom:15px;}
-.signup input.s1 {width:16px;height:16px;border:1px solid #bbb;border-radius:5px;margin-top:5px;}
-.signup div.s1 {font-size:10px;width:92%;float:right;}
-.signup p {text-align:center;font-size:16px;}
-.signup button.cta-btn {position:relative;}
-.signup button.cta-btn::after {
+.cta-btn:hover {color:#101113;}
+
+.hbox {
+	position:relative;
+	background:#fff;
+	-webkit-box-shadow:0 0 13px rgba(0,0,0,0.15);
+	box-shadow:0 0 13px rgba(0,0,0,0.15);
+}
+.hbox .line {
 	position:absolute;
-	content:' ';
-	background-size:100%;
-	background:url(../img/arrow-win.png) center top no-repeat;
-	left:-213px;
-	bottom:5px;
-	width:228px;
-	height:202px;
-	pointer-events: none;
+	width:calc(100% - 60px);
+	height:10px;
+	background:#101113;
+	bottom:-5px;
+	left:50%;
+	transform:translateX(-50%);
+}
+/* ----END SITEWIDE	---- */
+
+.hero {background:url(../img/bg_1.webp) center top no-repeat #101113;}
+.hero-b {background:url(../img/bg_2.webp) center bottom no-repeat;padding:60px 0 100px;}
+.tier-3 {background:url(../img/bg_3.webp) center top no-repeat #fff;min-height:1470px;}
+.tier-4 {background:url(../img/bg_4.webp) center top no-repeat;height:250px;}
+.tier-5 {background:url(../img/bg_5.webp) center top no-repeat #fff;min-height:600px;}
+.tier-6 {background:url(../img/bg_6.webp) center bottom no-repeat #fff;min-height:1700px;padding-top:100px;}
+
+
+.tier-7 {background:url(../img/bg_insta.webp) center bottom no-repeat;min-height:300px;padding-bottom:150px;}
+
+.tier-7 .hbox {margin-top:-170px;}
+.tier-7 .col-sm-4 {padding:0;position:relative;}
+.tier-7 .adj-1 {margin-top:-4%;}
+.tier-7 .blurb {
+	position:absolute;
+	font-family: 'Braah One', sans-serif;
+	font-size:30px;
+	text-align:center;
+	text-transform:uppercase;
+	line-height:0.85;
+	color:#fff;
+	background:#101113;
+	padding:5px;
+	width:100%;
+	bottom:0;
+	left:0;
+	border:4px solid #fff;
 }
 
+.insta-logo {
+	position:absolute;
+	top:0;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+footer {background:url(../img/bg_f.webp) center top no-repeat;min-height:300px;padding:40px 0;color:#fff;}
+footer a, footer a:hover, footer a:active {color:#fff;}
+footer .adj-1 {font-size:24px;}
+footer .adj-2 {margin-top:70px;}
+footer .adj-3 p {font-size:14px;}
+footer .adj-4 p {font-size:18px;}
+
+
 @media (min-width: 1921px) {.ultra-wrap {-webkit-box-shadow:0 0 50px rgba(0,0,0,0.35); box-shadow:0 0 50px rgba(0,0,0,0.35);}}
+@media (max-width: 1750px) {.tier-7 .blurb {font-size: 20px;}}
 @media (max-width: 1199px) {
 	body {font-size:18px;}
-	.signup input {height: 40px;font-size: 18px;line-height: 40px;margin-bottom: 10px;}
-	.signup p {font-size: 12px;}
-	.cta-btn {height: 60px;line-height: 60px;font-size: 30px;}
+	.tier-7 .hbox {margin-top: -125px;}
+	.tier-7 .blurb {font-size: 16px;}
+	.insta-logo {width: 120px;}
+	footer {padding: 45px 0;}
+	footer .adj-1 {font-size: 20px;}
 }
 @media (max-width: 991px) {
 	body {font-size:14px;}
-	.cta-btn {height: 50px;line-height: 50px;font-size: 20px;}
-	.signup button.cta-btn::after {display:none;}
-	.signup input {height: 30px;font-size: 16px;line-height: 30px;}
-	.signup div.s1 {width: 85%;}
-	.signup p {font-size: 9px;}
 }
 @media (max-width: 767px) {
 	.hero, .tier-2, .tier-3, .tier-4, .tier-5, .tier-6, .tier-7, .tier-8 {height:auto;}
 	body {font-size:14px;}
-	.signup img{width:100%;}
-	.signup input {height: 50px;font-size: 16px;line-height: 50px;}
-	.signup input.s1 {width: 26px;height: 26px;}
-	.signup div.s1 {font-size: 12px;width: 90%;}
+	.tier-7 {padding-bottom: 100px;background-size: 780px;}
+    .insta-logo {width: 15%;}
+    footer {background-image:none;background-color:#000;}
+    footer .adj-4 {margin-top:30px;}
 }
