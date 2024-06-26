@@ -1,7 +1,9 @@
-body {font-family: 'Open Sans', sans-serif;font-weight:400;font-size:24px;background:#101113;color:#101113;}
+body {font-family: 'Open Sans', sans-serif;font-weight:500;font-size:24px;background:#101113;color:#101113;}
 a, a:hover, a:visited, a:active {text-decoration: none;}
-h1, h2, h3, h4, h5, h6 {font-family: 'Braah One', sans-serif;line-height:0.85;}
-h1, h2, h5, h6 {text-transform:uppercase;}
+h1, h2, h3, h4, h5, h6 {font-family: 'Braah One', sans-serif;line-height:0.75;text-transform:uppercase;}
+h4 {line-height:0.7;}
+
+h4 {font-size:78px;text-align:center;}
 
 .img-responsive {margin:0 auto;}
 .pos {position:relative;}
@@ -21,6 +23,25 @@ h1, h2, h5, h6 {text-transform:uppercase;}
 .purple_bg {background-color:#814a9d;}
 .red_bg {background-color:#ef4952;}
 
+.bar {height:10px;}
+.bl-gr {background: linear-gradient(135deg,  #101113 49%,#8abd59 51%);}
+.re-bl {background: linear-gradient(135deg,  #ef4952 49%,#101113 51%);}
+.bl-pi {background: linear-gradient(135deg,  #ed2490 49%,#101113 51%);}
+.pi-bl {background: linear-gradient(135deg,  #101113 49%,#ed2490 51%);}
+.bl-pu {background: linear-gradient(135deg,  #101113 49%,#814a9d 51%);}
+.pu-bl {background: linear-gradient(135deg,  #814a9d 49%,#101113 51%);}
+
+.h-shad {
+	-webkit-text-shadow:6px 6px 3px #101113,
+    -6px 6px 3px #101113,
+    -6px -6px 3px #101113,
+    6px -6px 3px #101113;
+	text-shadow:6px 6px 3px #101113,
+    -6px 6px 3px #101113,
+    -6px -6px 3px #101113,
+    6px -6px 3px #101113;
+}
+
 .cta {padding:0;position:relative;}
 .cta-btn {
 	display:block;
@@ -28,7 +49,7 @@ h1, h2, h5, h6 {text-transform:uppercase;}
 	height:70px;
 	line-height:64px;
 	margin:10px 0;
-	font-family: 'Bruno Ace SC', cursive;
+	font-family: 'Bruno Ace SC', sans-serif;
 	color:#101113;
 	text-align:center;
 	text-transform:uppercase;
@@ -56,14 +77,98 @@ h1, h2, h5, h6 {text-transform:uppercase;}
 /* ----END SITEWIDE	---- */
 
 .hero {background:url(../img/bg_1.webp) center top no-repeat #101113;}
-.hero-b {background:url(../img/bg_2.webp) center bottom no-repeat;padding:60px 0 100px;}
+.hero-b {background:url(../img/bg_2.webp) center bottom no-repeat;}
+.hero-b .container {min-height:1218px;position:relative;}
+
+.hero .adj-1 {margin-top:170px;padding:0;}
+.hero .adj-1 h1 {
+	font-size:36px;
+	text-align:center;
+	-webkit-text-shadow:3px 3px 2px #fff,
+    -3px 3px 2px #fff,
+    -3px -3px 2px #fff,
+    3px -3px 2px #fff;
+	text-shadow:3px 3px 2px #fff,
+    -3px 3px 2px #fff,
+    -3px -3px 2px #fff,
+    3px -3px 2px #fff;
+	rotate: 2deg;
+}
+.hero .adj-2 {margin-top:-10px;}
+.hero .adj-2 h2 {
+	text-align:center;
+	font-size:82px;
+	-webkit-text-shadow:4px 4px 2px #101113,
+    -4px 4px 2px #101113,
+    -4px -4px 2px #101113,
+    4px -4px 2px #101113;
+	text-shadow:4px 4px 2px #101113,
+    -4px 4px 2px #101113,
+    -4px -4px 2px #101113,
+    4px -4px 2px #101113;
+	rotate: -1deg;
+}
+.hero .adj-3 {margin-top:-30px;}
+.hero .cta {margin-top:-62px;position:relative;}
+.hero .cta::after {
+	position:absolute;
+	width:216px;
+	height:24px;
+	background:url(../img/sec.webp) center top no-repeat;
+	left:50%;
+	transform:translateX(-50%);
+	bottom:-20px;
+	content:' ';
+}
+.hero .cta .cta-btn {box-shadow:0 3px #fff;}
+.hero .adj-4 {margin-top:-100px;pointer-events: none;}
+.hero .adj-5 {margin-top:-160px;}
+.hero .adj-5 h3 {font-size:27px;text-align:center;}
+.hero .adj-5 h3 .txt-outline {
+	color:#101113;
+	-webkit-text-shadow:2px 2px 1px #ed2490,
+    -2px 2px 1px #ed2490,
+    -2px -2px 1px #ed2490,
+    2px -2px 1px #ed2490;
+	text-shadow:2px 2px 1px #ed2490,
+    -2px 2px 1px #ed2490,
+    -2px -2px 1px #ed2490,
+    2px -2px 1px #ed2490;
+}
+.hero p {font-size:22px;text-align:center;margin-top:60px;}
+.hero .adj-6, .hero .adj-7 {position:absolute;bottom:-150px;}
+.hero .adj-6 {left:-100px;}
+.hero .adj-7 {right:-100px;}
+
+
 .tier-3 {background:url(../img/bg_3.webp) center top no-repeat #fff;min-height:1470px;}
+.tier-3 h4 {margin-top:-65px;}
+.tier-3 .s1 {font-size:30px;}
+.tier-3 .s2 {font-size:36px;}
+.tier-3 .s3 {font-size:42px;}
+
+
+
 .tier-4 {background:url(../img/bg_4.webp) center top no-repeat;height:250px;}
+.tier-4 .s1 {font-size:30px;}
+.tier-4 .s2 {font-size:36px;}
+.tier-4 .s3 {font-size:48px;}
+
+
+
 .tier-5 {background:url(../img/bg_5.webp) center top no-repeat #fff;min-height:600px;}
 .tier-6 {background:url(../img/bg_6.webp) center bottom no-repeat #fff;min-height:1700px;padding-top:100px;}
+.tier-6 .s1 {font-size:30px;}
+.tier-6 .s2 {font-size:50px;}
+.tier-6 .s3 {font-size:42px;}
 
 
 .tier-7 {background:url(../img/bg_insta.webp) center bottom no-repeat;min-height:300px;padding-bottom:150px;}
+.tier-7 .s1 {font-size:30px;}
+.tier-7 .s2 {font-size:36px;}
+.tier-7 .s3 {font-size:48px;}
+
+
 
 .tier-7 .hbox {margin-top:-170px;}
 .tier-7 .col-sm-4 {padding:0;position:relative;}
