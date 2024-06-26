@@ -1,9 +1,9 @@
 body {font-family: 'Open Sans', sans-serif;font-weight:500;font-size:24px;background:#101113;color:#101113;}
 a, a:hover, a:visited, a:active {text-decoration: none;}
 h1, h2, h3, h4, h5, h6 {font-family: 'Braah One', sans-serif;line-height:0.75;text-transform:uppercase;}
-h4 {line-height:0.7;}
-
-h4 {font-size:78px;text-align:center;}
+h3 {font-size:48px;text-align:center;}
+h4 {font-size:78px;text-align:center;line-height:0.7;}
+h5 {font-size:30px;text-align:center;}
 
 .img-responsive {margin:0 auto;}
 .pos {position:relative;}
@@ -141,11 +141,44 @@ h4 {font-size:78px;text-align:center;}
 .hero .adj-7 {right:-100px;}
 
 
+.tier-3 .container, .tier-4 .container, .tier-6 .container, .tier-7 .container {position:relative;}
+.tier-3 .adj-1, .tier-6 .adj-1 {margin-top:200px;}
+.tier-3 .adj-2, .tier-6 .adj-2 {margin-top:50px;}
+.tier-3 .hbox, .tier-4 .hbox, .tier-6 .hbox, .tier-7 .hbox {padding-bottom:10px;}
+.tier-3 p, .tier-4 p, .tier-6 p, .tier-7 p {font-size:16px;text-align:center;}
+.tier-3 .cta, .tier-4 .cta, .tier-6 .cta, .tier-7 .cta {width:80%;margin:0 auto;}
+.tier-3 .cta .cta-btn, .tier-4 .cta .cta-btn, .tier-6 .cta .cta-btn, .tier-7 .cta .cta-btn {
+	height:40px;
+	line-height:35px;
+	font-size:18px;
+}
+.btl-con {position:absolute;top:100px;right:50%;transform: translateX(50%);width:44%;pointer-events: none;;
+}
+.btl-snip {
+	font-weight:900;
+	line-height:0.9;
+	width:370px;
+	letter-spacing: -2px;
+	position:absolute;
+}
+.btl-ttl {
+	position:absolute;
+	bottom:calc(100% - 32px);
+	right:0;
+	font-family: 'Bruno Ace SC', sans-serif;
+	font-size:84px;
+	opacity:0.8;
+	color:#fff;
+	text-transform: uppercase;
+}
+
 .tier-3 {background:url(../img/bg_3.webp) center top no-repeat #fff;min-height:1470px;}
 .tier-3 h4 {margin-top:-65px;}
 .tier-3 .s1 {font-size:30px;}
 .tier-3 .s2 {font-size:36px;}
 .tier-3 .s3 {font-size:42px;}
+.tier-3 .btl-snip {right: 75%;rotate: -3deg;bottom: 20%;}
+
 
 
 

@@ -64,21 +64,23 @@
                 </div>
             </div>
             <div class="row adj-1">
-                <div class="col-sm-5 hbox">
+                <div class="col-sm-5 hbox pos">
                     <h3><span class="green">Unleash</span> Your Mind's Potential</h3>
                     <div class="btl-ttl">Focus</div>
+                    <div class="line"></div>
                 </div>
-                <div class="col-sm-3 col-sm-offset-2">
+                <div class="col-sm-3 col-sm-offset-2 hbox adj-2">
                     <h5>Iwanna <span class="green">Focus</span></h5>
                     <p>Ignite your cognitive fireworks with an explosive mix of brain-boosting berries.</p>
                     <div class="cta">
                         <a href="#" class="cta-btn green_bg">Get Focus</a>
                     </div>
+                    <div class="line"></div>
                 </div>
             </div>
             <div class="btl-con">
                 <img src="img/btl-f.webp" class="img-responsive" />
-                <div class="btl-snip">
+                <div class="btl-snip text-right">
                     <span class="s1">Your Daily Dose of</span><br />
                     <span class="s2"> Concentration</span><br />
                     <span class="s3"> &amp; Clarity</span>
