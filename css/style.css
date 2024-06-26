@@ -172,7 +172,7 @@ h5 {font-size:30px;text-align:center;}
 	text-transform: uppercase;
 }
 
-.tier-3 {background:url(../img/bg_3.webp) center top no-repeat #fff;min-height:1470px;}
+.tier-3 {background:url(../img/bg_3.webp) center top no-repeat #fff;min-height:689px;}
 .tier-3 h4 {margin-top:-65px;}
 .tier-3 .s1 {font-size:30px;}
 .tier-3 .s2 {font-size:36px;}
@@ -182,7 +182,7 @@ h5 {font-size:30px;text-align:center;}
 
 
 
-.tier-4 {background:url(../img/bg_4.webp) center top no-repeat;height:250px;}
+.tier-4 {background:url(../img/bg_4.webp) center top no-repeat;min-height:700px;}
 .tier-4 .s1 {font-size:30px;}
 .tier-4 .s2 {font-size:36px;}
 .tier-4 .s3 {font-size:48px;}
@@ -203,7 +203,7 @@ h5 {font-size:30px;text-align:center;}
 
 
 
-.tier-7 .hbox {margin-top:-170px;}
+.tier-7 .hbox {margin-top: -100px;z-index: 2;}
 .tier-7 .col-sm-4 {padding:0;position:relative;}
 .tier-7 .adj-1 {margin-top:-4%;}
 .tier-7 .blurb {
