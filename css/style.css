@@ -1,9 +1,10 @@
 body {font-family: 'Open Sans', sans-serif;font-weight:500;font-size:24px;background:#101113;color:#101113;}
 a, a:hover, a:visited, a:active {text-decoration: none;}
-h1, h2, h3, h4, h5, h6 {font-family: 'Braah One', sans-serif;line-height:0.75;text-transform:uppercase;}
+h1, h2, h3, h4, h5, h6, .tier-5 {font-family: 'Braah One', sans-serif;line-height:0.75;text-transform:uppercase;}
 h3 {font-size:48px;text-align:center;}
-h4 {font-size:78px;text-align:center;line-height:0.7;}
+h4 {font-size:78px;text-align:center;line-height:0.8;}
 h5 {font-size:30px;text-align:center;}
+h6 {font-size:60px;text-align:center;}
 
 .img-responsive {margin:0 auto;}
 .pos {position:relative;}
@@ -13,11 +14,13 @@ h5 {font-size:30px;text-align:center;}
 .clearfix {float:none;}
 
 .black {color:#101113;}
+.black-wk {-webkit-text-fill-color: #101113;}
 .white {color:#fff;}
-.green {color:#8abd59;}
-.pink {color:#ed2490;}
-.purple {color:#814a9d;}
-.red {color:#ef4952;}
+.white-wk {-webkit-text-fill-color: #fff;}
+.green {color:#8abd59;-webkit-text-fill-color:#8abd59;}
+.pink {color:#ed2490;-webkit-text-fill-color: #ed2490;}
+.purple {color:#814a9d;-webkit-text-fill-color:#814a9d;}
+.red {color:#ef4952;-webkit-text-fill-color:#ef4952;}
 .green_bg {background-color:#8abd59;}
 .pink_bg {background-color:#ed2490;}
 .purple_bg {background-color:#814a9d;}
@@ -26,8 +29,8 @@ h5 {font-size:30px;text-align:center;}
 .bar {height:10px;}
 .bl-gr {background: linear-gradient(135deg,  #101113 49%,#8abd59 51%);}
 .re-bl {background: linear-gradient(135deg,  #ef4952 49%,#101113 51%);}
-.bl-pi {background: linear-gradient(135deg,  #ed2490 49%,#101113 51%);}
-.pi-bl {background: linear-gradient(135deg,  #101113 49%,#ed2490 51%);}
+.pi-bl {background: linear-gradient(135deg,  #ed2490 49%,#101113 51%);}
+.bl-pi {background: linear-gradient(135deg,  #101113 49%,#ed2490 51%);}
 .bl-pu {background: linear-gradient(135deg,  #101113 49%,#814a9d 51%);}
 .pu-bl {background: linear-gradient(135deg,  #814a9d 49%,#101113 51%);}
 
@@ -41,6 +44,18 @@ h5 {font-size:30px;text-align:center;}
     -6px -6px 3px #101113,
     6px -6px 3px #101113;
 }
+.h-shad-sml {
+	-webkit-text-shadow:4px 4px 2px #101113,
+    -4px 4px 2px #101113,
+    -4px -4px 2px #101113,
+    4px -4px 2px #101113;
+	text-shadow:4px 4px 2px #101113,
+    -4px 4px 2px #101113,
+    -4px -4px 2px #101113,
+    4px -4px 2px #101113;
+}
+.stroke {position:relative;z-index:1;}
+.stroke::before {position:absolute;left:0;top:0;z-index:-1;}
 
 .cta {padding:0;position:relative;}
 .cta-btn {
@@ -126,6 +141,7 @@ h5 {font-size:30px;text-align:center;}
 .hero .adj-5 h3 {font-size:27px;text-align:center;}
 .hero .adj-5 h3 .txt-outline {
 	color:#101113;
+	-webkit-text-fill-color: #101113;
 	-webkit-text-shadow:2px 2px 1px #ed2490,
     -2px 2px 1px #ed2490,
     -2px -2px 1px #ed2490,
@@ -142,9 +158,11 @@ h5 {font-size:30px;text-align:center;}
 
 
 .tier-3 .container, .tier-4 .container, .tier-6 .container, .tier-7 .container {position:relative;}
-.tier-3 .adj-1, .tier-6 .adj-1 {margin-top:200px;}
-.tier-3 .adj-2, .tier-6 .adj-2 {margin-top:50px;}
-.tier-3 .hbox, .tier-4 .hbox, .tier-6 .hbox, .tier-7 .hbox {padding-bottom:10px;}
+.tier-4 .adj-1, .tier-7 .adj-1 {margin-top:260px;}
+.tier-3 .adj-2, .tier-4 .adj-2, .tier-6 .adj-2, .tier-7 .adj-2 {margin-top:50px;}
+.tier-4 .hbox, .tier-7 .hbox {background:#101113;color:#fff;}
+.tier-4 .hbox .line, .tier-7 .hbox .line {background: #fff;}
+.tier-3 .hbox, .tier-4 .hbox, .tier-6 .hbox, .tier-7 .hbox {padding-bottom:5px;}
 .tier-3 p, .tier-4 p, .tier-6 p, .tier-7 p {font-size:16px;text-align:center;}
 .tier-3 .cta, .tier-4 .cta, .tier-6 .cta, .tier-7 .cta {width:80%;margin:0 auto;}
 .tier-3 .cta .cta-btn, .tier-4 .cta .cta-btn, .tier-6 .cta .cta-btn, .tier-7 .cta .cta-btn {
@@ -152,7 +170,7 @@ h5 {font-size:30px;text-align:center;}
 	line-height:35px;
 	font-size:18px;
 }
-.btl-con {position:absolute;top:100px;right:50%;transform: translateX(50%);width:44%;pointer-events: none;;
+.btl-con {position:absolute;top:100px;right:50%;transform: translateX(50%);width:46%;pointer-events: none;;
 }
 .btl-snip {
 	font-weight:900;
@@ -161,9 +179,17 @@ h5 {font-size:30px;text-align:center;}
 	letter-spacing: -2px;
 	position:absolute;
 }
+.tier-3 .btl-snip, .tier-6 .btl-snip {
+	-webkit-text-shadow:0 0 13px #fff;
+	text-shadow:0 0 13px #fff;
+}
+.tier-4 .btl-snip, .tier-7 .btl-snip {
+	-webkit-text-shadow:0 0 13px #101113;
+	text-shadow:0 0 13px #101113;
+}
 .btl-ttl {
 	position:absolute;
-	bottom:calc(100% - 32px);
+	bottom:calc(100% - 31px);
 	right:0;
 	font-family: 'Bruno Ace SC', sans-serif;
 	font-size:84px;
@@ -171,9 +197,13 @@ h5 {font-size:30px;text-align:center;}
 	color:#fff;
 	text-transform: uppercase;
 }
+.tier-4 .btl-ttl, .tier-7 .btl-ttl {right:auto;left:0;}
 
 .tier-3 {background:url(../img/bg_3.webp) center top no-repeat #fff;min-height:689px;}
+.tier-3 .adj-1 {margin-top:200px;}
 .tier-3 h4 {margin-top:-65px;}
+.tier-3 h4.stroke::before {content:'Discover Your Superpowers!';
+	-webkit-text-stroke: 14px #101113;}
 .tier-3 .s1 {font-size:30px;}
 .tier-3 .s2 {font-size:36px;}
 .tier-3 .s3 {font-size:42px;}
@@ -186,27 +216,95 @@ h5 {font-size:30px;text-align:center;}
 .tier-4 .s1 {font-size:30px;}
 .tier-4 .s2 {font-size:36px;}
 .tier-4 .s3 {font-size:48px;}
+.tier-4 .btl-snip {left: 75%;rotate: 3deg;bottom: 20%;}
 
+.tier-5 {background:url(../img/bg_5.webp) center top no-repeat #fff;min-height:400px;}
+.tier-5 {color:#fff;}
+.tier-5 ul {margin-top:50px;}
+.tier-5 ul li {position:relative;padding-left:70px;margin:10px 0}
+.tier-5 ul li::before {
+	position:absolute;
+	content: ' ';
+	width:80px;
+	height:102px;
+	background-size:100%;
+	left:0;
+	top:50%;
+	transform: translateY(-50%);
+}
+.tier-5 ul li.s1 {font-size:78px;}
+.tier-5 ul li.s1::before {background:url(../img/chk-g.webp) center top no-repeat;}
+.tier-5 ul li.s2 {font-size:87px;}
+.tier-5 ul li.s2::before {background:url(../img/chk-r.webp) center top no-repeat;}
+.tier-5 ul li.s3 {font-size:91px;}
+.tier-5 ul li.s3::before {background:url(../img/chk-p.webp) center top no-repeat;}
+.tier-5 ul li.s4 {font-size:92px;}
+.tier-5 ul li.s4::before {background:url(../img/chk-pu.webp) center top no-repeat;}
 
-
-.tier-5 {background:url(../img/bg_5.webp) center top no-repeat #fff;min-height:600px;}
-.tier-6 {background:url(../img/bg_6.webp) center bottom no-repeat #fff;min-height:1700px;padding-top:100px;}
+.tier-6 {background:url(../img/bg_6.webp) center top no-repeat;min-height:700px;}
+.tier-6 .adj-1 {margin-top:260px;}
 .tier-6 .s1 {font-size:30px;}
 .tier-6 .s2 {font-size:50px;}
 .tier-6 .s3 {font-size:42px;}
+.tier-6 .btl-snip {right: 75%;rotate: -3deg;bottom: 20%;}
 
 
-.tier-7 {background:url(../img/bg_insta.webp) center bottom no-repeat;min-height:300px;padding-bottom:150px;}
+.tier-7 {background:url(../img/bg_7.webp) center top no-repeat;min-height:700px;}
 .tier-7 .s1 {font-size:30px;}
 .tier-7 .s2 {font-size:36px;}
 .tier-7 .s3 {font-size:48px;}
+.tier-7 .btl-snip {left: 75%;rotate: 3deg;bottom: 20%;}
+
+
+.tier-8 {background:url(../img/bg_8.webp) center top no-repeat;min-height:400px;padding-top:50px;}
+.tier-8 .ico-con {text-align:center;color:#fff;}
+.tier-8 .ico-img {height:120px;}
+.tier-8 h4 {font-size:24px;text-transform:uppercase;}
+.tier-8 p {font-size:18px;}
 
 
 
-.tier-7 .hbox {margin-top: -100px;z-index: 2;}
-.tier-7 .col-sm-4 {padding:0;position:relative;}
-.tier-7 .adj-1 {margin-top:-4%;}
-.tier-7 .blurb {
+.tier-9 {background:url(../img/bg_9.webp) center top no-repeat #fff;padding-top:100px;}
+.tier-9b {background: url(../img/bg_9b.webp) center bottom no-repeat;padding-bottom:100px;}
+.tier-9 h4.stroke::before {
+	content:'What Makes Iwanna Gummies So Special?';
+	-webkit-text-stroke: 14px #101113;
+}
+.tier-9 h4.stroke::after {
+	position:absolute;
+	content:' ';
+	width:238px;
+	height:57px;
+	background:url(../img/blend.png) center top no-repeat;
+	background-size:100%;
+	bottom:-60px;
+	right:12%;
+}
+.tier-9 p {margin-bottom:30px;}
+.tier-9 .hbox {padding:30px 30px 10px;}
+.tier-9 .adj-1 {margin-top:30px;}
+.tier-9 .adj-2 {margin-top:75px;}
+.tier-9 .adj-3 {margin-top:75px;}
+.tier-9 .adj-4 {margin-top:75px;}
+.tier-9 .adj-5 {margin-top:93px;}
+
+
+
+.tier-10 {background:url(../img/bg_10.webp) center top no-repeat;min-height:900px;color:#fff;}
+.tier-10 h2 {font-size:60px;}
+.tier-10 p {font-size:16px;}
+.tier-10 .hbox {color:#101113;}
+.tier-10 .adj-1 {margin-top:-30px;}
+.tier-10 .adj-2 {margin-top:20px;}
+.tier-10 .adj-2 .col-sm-4 img {margin-bottom:10px;}
+.tier-10 .adj-3 {margin-top:100px;}
+
+
+.tier-12 {background:url(../img/bg_insta.webp) center bottom no-repeat;min-height:300px;padding-bottom:150px;}
+.tier-12 .hbox {margin-top: -100px;z-index: 2;}
+.tier-12 .col-sm-4 {padding:0;position:relative;}
+.tier-12 .adj-1 {margin-top:-4%;}
+.tier-12 .blurb {
 	position:absolute;
 	font-family: 'Braah One', sans-serif;
 	font-size:30px;
@@ -238,11 +336,11 @@ footer .adj-4 p {font-size:18px;}
 
 
 @media (min-width: 1921px) {.ultra-wrap {-webkit-box-shadow:0 0 50px rgba(0,0,0,0.35); box-shadow:0 0 50px rgba(0,0,0,0.35);}}
-@media (max-width: 1750px) {.tier-7 .blurb {font-size: 20px;}}
+@media (max-width: 1750px) {.tier-12 .blurb {font-size: 20px;}}
 @media (max-width: 1199px) {
 	body {font-size:18px;}
-	.tier-7 .hbox {margin-top: -125px;}
-	.tier-7 .blurb {font-size: 16px;}
+	.tier-12 .hbox {margin-top: -125px;}
+	.tier-12 .blurb {font-size: 16px;}
 	.insta-logo {width: 120px;}
 	footer {padding: 45px 0;}
 	footer .adj-1 {font-size: 20px;}
@@ -253,7 +351,7 @@ footer .adj-4 p {font-size:18px;}
 @media (max-width: 767px) {
 	.hero, .tier-2, .tier-3, .tier-4, .tier-5, .tier-6, .tier-7, .tier-8 {height:auto;}
 	body {font-size:14px;}
-	.tier-7 {padding-bottom: 100px;background-size: 780px;}
+	.tier-12 {padding-bottom: 100px;background-size: 780px;}
     .insta-logo {width: 15%;}
     footer {background-image:none;background-color:#000;}
     footer .adj-4 {margin-top:30px;}
