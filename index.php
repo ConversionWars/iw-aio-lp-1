@@ -332,6 +332,18 @@
 
     <div class="bar bl-pi"></div>
 
+    <div class="tier-11">
+        <div class="tier-11b">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                    <h4 class="text-center black white-wk stroke">Ready to transform your daily grind into <span class="pink">Daily Greatness?</span></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="tier-12">
         <div class="container">
             <div class="row">
