@@ -334,10 +334,48 @@
 
     <div class="tier-11">
         <div class="tier-11b">
-            <div class="container">
+            <div class="container pos">
                 <div class="row">
-                    <div class="col-sm-12">
-                    <h4 class="text-center black white-wk stroke">Ready to transform your daily grind into <span class="pink">Daily Greatness?</span></h4>
+                    <div class="col-sm-9 adj-1">
+                        <img src="img/close-prod.webp" class="img-responsive" />
+                    </div>
+                    <div class="col-sm-12 adj-2">
+                        <h4 class="text-center black white-wk stroke">Ready to transform your daily grind into <span class="pink">Daily Greatness?</span></h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5 col-sm-offset-7 adj-3">
+                        <h5 class="text-center black white-wk stroke"><span class="red">Order Now</span> and start your journey to becoming an <span class="pink">unstoppable force</span> with this <span class="red">Limited Time Offer</span></h5>
+                    </div>
+                </div>
+                <div class="row adj-4">
+                    <div class="col-sm-4 col-sm-offset-4 cta">
+                        <a href="#" class="cta-btn red_bg">Get Iwanna</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="img/close-40.webp" class="img-responsive" alt="40% off Right Now!" />
+                    </div>
+                </div>
+                <div class="row adj-5">
+                    <div class="col-sm-2 col-sm-offset-2">
+                        <img src="img/close-ico-1.webp" class="img-responsive" alt="Fast and Free Shipping" />
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="img/close-ico-2.webp" class="img-responsive" alt="Easy Returns" />
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="img/close-ico-3.webp" class="img-responsive" alt="Secure Checkout" />
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="img/close-ico-4.webp" class="img-responsive" alt="Satisfaction Guarantee" />
+                    </div>
+                </div>
+                <div class="row adj-6">
+                    <div class="col-sm-4">
+                        <img src="img/usa.webp" class="img-responsive" alt="Made in the USA" />
+                    </div>
+                    <div class="col-sm-8">
+                        <h6>iWanna GMP Certified<br /> Manufacturing<br /> in the USA
                     </div>
                 </div>
             </div>

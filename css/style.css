@@ -227,19 +227,18 @@ h6 {font-size:60px;text-align:center;}
 	content: ' ';
 	width:80px;
 	height:102px;
-	background-size:100%;
 	left:0;
 	top:50%;
 	transform: translateY(-50%);
 }
 .tier-5 ul li.s1 {font-size:78px;}
-.tier-5 ul li.s1::before {background:url(../img/chk-g.webp) center top no-repeat;}
+.tier-5 ul li.s1::before {background:url(../img/chk-g.webp) center top no-repeat;background-size:100%;}
 .tier-5 ul li.s2 {font-size:87px;}
-.tier-5 ul li.s2::before {background:url(../img/chk-r.webp) center top no-repeat;}
+.tier-5 ul li.s2::before {background:url(../img/chk-r.webp) center top no-repeat;background-size:100%;}
 .tier-5 ul li.s3 {font-size:91px;}
-.tier-5 ul li.s3::before {background:url(../img/chk-p.webp) center top no-repeat;}
+.tier-5 ul li.s3::before {background:url(../img/chk-p.webp) center top no-repeat;background-size:100%;}
 .tier-5 ul li.s4 {font-size:92px;}
-.tier-5 ul li.s4::before {background:url(../img/chk-pu.webp) center top no-repeat;}
+.tier-5 ul li.s4::before {background:url(../img/chk-pu.webp) center top no-repeat;background-size:100%;}
 
 .tier-6 {background:url(../img/bg_6.webp) center top no-repeat;min-height:700px;}
 .tier-6 .adj-1 {margin-top:260px;}
@@ -296,12 +295,32 @@ h6 {font-size:60px;text-align:center;}
 .tier-10 .hbox {color:#101113;}
 .tier-10 .adj-1 {margin-top:-30px;}
 .tier-10 .adj-2 {margin-top:50px;}
-.tier-10 .adj-2 .col-sm-4 img {margin-bottom:10px;}
+.tier-10 .adj-2 .col-sm-4 img {margin-bottom:20px;}
 .tier-10 .adj-3 {margin-top:100px;}
 
 
 .tier-11 {background:url(../img/bg_close.webp) center top no-repeat #fff;}
 .tier-11b {background:url(../img/bg_closeb.webp) center bottom no-repeat;min-height:2081px;}
+.tier-11 h4.stroke::before {
+	content:'Ready to transform your daily grind into Daily Greatness?';
+	-webkit-text-stroke: 14px #101113;}
+.tier-11 h5 {font-size:40px;}
+.tier-11 h5.stroke::before {
+	content:'Order Now and start your journey to becoming an unstoppable force with this Limited Time Offer';
+	-webkit-text-stroke: 14px #101113;}
+	.tier-11 h6 {text-align:left;text-shadow:2px 2px 0 #fff;}
+.tier-11 .adj-1 {
+	position:absolute;
+	top:580px;
+	left:-100px;
+}
+.tier-11 .adj-2 {margin-top:100px;padding:0 100px;}
+.tier-11 .adj-3 {margin-top:680px;padding:0 28px;}
+.tier-11 .adj-4 {margin-top:30px;}
+.tier-11 .cta {margin-top:25px;}
+.tier-11 .adj-5 {margin-top:30px;}
+.tier-11 .adj-6 {margin-top:88px;}
+
 
 
 .tier-12 {background:url(../img/bg_insta.webp) center bottom no-repeat;min-height:300px;padding-bottom:150px;}
@@ -341,9 +360,64 @@ footer .adj-4 p {font-size:18px;}
 
 @media (min-width: 1921px) {.ultra-wrap {-webkit-box-shadow:0 0 50px rgba(0,0,0,0.35); box-shadow:0 0 50px rgba(0,0,0,0.35);}}
 @media (max-width: 1750px) {.tier-12 .blurb {font-size: 20px;}}
+@media (max-width:1400px) {.hero .adj-6 {left:0;}.hero .adj-7 {right:0;}}
 @media (max-width: 1199px) {
 	body {font-size:18px;}
-	.tier-12 .hbox {margin-top: -125px;}
+	h3 {font-size: 40px;}
+	h4 {font-size: 64px;}
+	h5 {font-size: 24px;}
+	h6 {font-size: 48px;}
+	.btl-ttl {bottom: calc(100% - 26px);font-size: 72px;}
+	.btl-snip {width:40%;}
+	.tier-3 p, .tier-4 p, .tier-6 p, .tier-7 p {font-size: 14px;}
+	.hero, .hero-b, .tier-3, .tier-4, .tier-5, .tier-6, .tier-7, .tier-8, .tier-9, .tier-9b, .tier-10, .tier-11, .tier-11b {background-size:1600px;}
+	.hero-b .container {min-height: 1000px;}
+	.hero p {font-size: 18px;margin-top: 50px;}
+	.hero .adj-1 {margin-top: 130px;}
+	.hero .adj-1 h1 {
+		font-size: 24px;
+		text-align: center;
+		-webkit-text-shadow: 2px 2px 1px #fff, -2px 2px 1px #fff, -2px -2px 1px #fff, 2px -2px 1px #fff;
+		text-shadow: 2px 2px 1px #fff, -2px 2px 1px #fff, -2px -2px 1px #fff, 2px -2px 1px #fff;
+	}
+	.hero .adj-2 {
+		margin-top: -20px;
+	}
+	.hero .adj-2 h2 {
+		font-size: 68px;
+	}
+	.hero .adj-3 {
+		margin-top: -25px;
+	}
+	.hero .cta {margin-top: -55px;}
+	.hero .adj-4 {margin-top: -90px;}
+	.hero .adj-5 {margin-top: -130px;}
+	.hero .adj-5 h3 {font-size: 20px;}
+	.tier-3 {min-height: 574px;}
+	.tier-3 .adj-1 {margin-top: 160px;}
+	.tier-4 .adj-1, .tier-7 .adj-1 {margin-top: 215px;}
+	.tier-4 {min-height: 583px;}
+	.tier-5 {min-height: 333px;}
+	.tier-5 ul li::before {width: 60px;height: 77px;left: 40px;}
+	.tier-5 ul li.s1 {font-size: 64px;}
+	.tier-5 ul li.s2 {font-size: 71px;}
+	.tier-5 ul li.s3 {font-size: 75px;}
+	.tier-5 ul li.s4 {font-size: 76px;}
+	.tier-6 {min-height: 582px;}
+	.tier-6 .adj-1 {margin-top: 200px;}
+	.tier-7 {min-height: 583px;}
+	.tier-8 {min-height: 333px;padding-top: 80px;}
+	.tier-8 h4 {font-size: 20px;}
+	.tier-8 .ico-img {height: auto;}
+	.tier-8 .ico-img img {max-height:80px;}
+	.tier-8 p {font-size: 12px;}
+	.tier-9 h4.stroke::after {width: 188px;height: 46px;background-size: 100%;	bottom: -52px;}
+	.tier-10 {min-height: 750px;}
+	.tier-10 p {font-size: 14px;}
+	.tier-11b {min-height: 1730px;}
+	.tier-11 .adj-3 {margin-top: 640px;padding: 0 24px;}
+	.tier-11 h5 {font-size: 32px;}
+	.tier-12 .hbox {margin-top: -91px;}
 	.tier-12 .blurb {font-size: 16px;}
 	.insta-logo {width: 120px;}
 	footer {padding: 45px 0;}
@@ -351,6 +425,88 @@ footer .adj-4 p {font-size:18px;}
 }
 @media (max-width: 991px) {
 	body {font-size:14px;}
+	h3 {font-size: 30px;}
+	h4 {font-size: 50px;}
+	h5 {font-size: 18px;}
+	h6 {font-size: 32px;}
+	.btl-ttl {bottom: calc(100% - 21px);font-size: 56px;}
+	.hbox .line {height: 6px;bottom: -3px;}
+	.hero, .hero-b, .tier-3, .tier-4, .tier-5, .tier-6, .tier-7, .tier-8, .tier-9, .tier-9b, .tier-10, .tier-11, .tier-11b {background-size:1200px;}
+	.hero .adj-1 {margin-top: 95px;}
+	.hero .adj-1 h1 {font-size: 20px;}
+	.hero .adj-2 {margin-top: -15px;}
+	.hero .adj-2 h2 {font-size: 52px;}
+	.hero .adj-3 {margin-top: -19px;}
+	.hero .cta {margin-top: -44px;}
+	.cta-btn {height: 50px;line-height: 44px;font-size: 24px;}
+	.hero .cta::after {
+		width: 146px;
+		height: 16px;
+		bottom: -14px;
+		background-size: 100%;
+	}
+	.hero .adj-4 {margin-top: -70px;}
+	.hero p {font-size: 14px;margin-top: 60px;}
+	.hero .adj-5 {margin-top: -120px;}
+	.hero .adj-5 h3 {font-size: 16px;}
+	.hero-b .container {min-height: 790px;}
+	.tier-3 {min-height: 430px;}
+	.tier-3 h4 {margin-top: -48px;}
+	.tier-3 .btl-snip {bottom: 30%;}
+	.tier-3 .s1 {font-size: 14px;}
+	.tier-3 .s2 {font-size: 18px;}
+	.tier-3 .s3 {font-size: 22px;}
+	.tier-3 p, .tier-4 p, .tier-6 p, .tier-7 p {font-size: 12px;line-height:1.1;}
+	.tier-3 .adj-1 {margin-top: 135px;}
+	.tier-3 .adj-2, .tier-4 .adj-2, .tier-6 .adj-2, .tier-7 .adj-2 {margin-top: 30px;}
+	.tier-3 .cta .cta-btn, .tier-4 .cta .cta-btn, .tier-6 .cta .cta-btn, .tier-7 .cta .cta-btn {font-size: 12px;}
+	.tier-4 {min-height: 437px;}
+	.tier-4 .s1 {font-size: 16px;}
+	.tier-4 .s2 {font-size: 20px;}
+	.tier-4 .s3 {font-size: 22px;}
+	.tier-4 .adj-1, .tier-7 .adj-1 {margin-top: 185px;}
+	.tier-4 .btl-snip {bottom: 27%;}
+	.tier-5 {min-height: 250px;}
+	.tier-5 ul {margin-top: 35px;}
+	.tier-5 ul li.s1 {font-size: 46px;}
+	.tier-5 ul li.s2 {font-size: 51px;}
+	.tier-5 ul li.s3 {font-size: 54px;}
+	.tier-5 ul li.s4 {font-size: 54px;}
+	.tier-5 ul li::before {width: 44px;height: 59px;}
+	.tier-6 {min-height: 436px;}
+	.tier-6 .adj-1 {margin-top: 185px;}
+	.tier-6 .s1 {font-size: 20px;}
+	.tier-6 .s2 {font-size: 30px;}
+	.tier-6 .s3 {font-size: 24px;}
+	.tier-6 .btl-snip {bottom: 25%;}
+	.tier-7 {min-height: 436px;}
+	.tier-7 .s1 {font-size: 18px;}
+	.tier-7 .s2 {font-size: 18px;}
+	.tier-7 .s3 {font-size: 20px;}
+	.tier-7 .btl-snip {bottom: 25%;}
+	.tier-8 .ico-img img {max-height: 60px;}
+	.tier-8 {min-height: 250px;padding-top: 40px;}
+	.tier-8 h4 {font-size: 16px;}
+	.tier-8 p {font-size: 10px;}
+	.tier-9 h4.stroke::after {width: 148px;height: 37px;bottom: -44px;}
+	.tier-9 .adj-2 {margin-top: 35px;}
+	.tier-9 .adj-3 {margin-top: 35px;}
+	.tier-9 .adj-4 {margin-top: 35px;}
+	.tier-9 .adj-5 {margin-top: 44px;}
+	.tier-10 {min-height: 560px;}
+	.tier-10 h2 {font-size: 36px;}
+	.tier-10 p {font-size: 12px;}
+	.tier-10 .adj-2 {margin-top: 10px;}
+	.tier-11b {min-height: 1300px;}
+	.tier-11 .adj-1 {top: 440px;}
+	.tier-11 .adj-2 {margin-top: 70px;padding: 0 90px;}
+	.tier-11 .adj-3 {margin-top: 470px;padding: 0 15px;}
+	.tier-11 .adj-6 {margin-top: 28px;}
+	.tier-11 h5 {font-size: 26px;}
+	.tier-12 .hbox {margin-top: -70px;}
+	footer .adj-1 {font-size: 18px;}
+	footer .adj-3 p {font-size: 12px;}
+	footer .adj-4 p {font-size: 16px;}
 }
 @media (max-width: 767px) {
 	.hero, .tier-2, .tier-3, .tier-4, .tier-5, .tier-6, .tier-7, .tier-8 {height:auto;}
