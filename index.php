@@ -4,30 +4,33 @@
 
     <div class="hero">
         <div class="hero-b">
+        <img src="img/hero-m.webp" class="img-responsive visible-xs" />
         <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-sm-offset-4 adj-1">
-                    <h1>Tired of the same old<br /> Wellness Routine?</h1>
+            <div class="wrap">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-4 adj-1">
+                        <h1>Tired of the same old<br /> Wellness Routine?</h1>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 adj-2">
-                    <h2 class="white">Break the <span class="red">Mold</span></h2>
+                <div class="row">
+                    <div class="col-sm-12 adj-2">
+                        <h2 class="white">Break the <span class="red">Mold</span></h2>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 adj-3">
-                    <img src="img/hero-btls.webp" class="img-responsive" />
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1 adj-3">
+                        <img src="img/hero-btls.webp" class="img-responsive" />
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 col-sm-offset-4 cta">
-                    <a href="#" class="cta-btn red_bg">Get Iwanna</a>
+                <div class="row">
+                    <div class="col-sm-4 col-sm-offset-4 cta">
+                        <a href="#" class="cta-btn red_bg">Get Iwanna</a>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 adj-4">
-                    <img src="img/t1-aso.webp" class="img-responsive" />
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1 adj-4">
+                        <img src="img/t1-aso.webp" class="img-responsive" />
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -357,16 +360,16 @@
                     </div>
                 </div>
                 <div class="row adj-5">
-                    <div class="col-sm-2 col-sm-offset-2">
+                    <div class="col-xs-3 col-sm-2 col-sm-offset-2">
                         <img src="img/close-ico-1.webp" class="img-responsive" alt="Fast and Free Shipping" />
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-xs-3 col-sm-2">
                         <img src="img/close-ico-2.webp" class="img-responsive" alt="Easy Returns" />
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-xs-3 col-sm-2">
                         <img src="img/close-ico-3.webp" class="img-responsive" alt="Secure Checkout" />
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-xs-3 col-sm-2">
                         <img src="img/close-ico-4.webp" class="img-responsive" alt="Satisfaction Guarantee" />
                     </div>
                 </div>

@@ -511,8 +511,206 @@ footer .adj-4 p {font-size:18px;}
 @media (max-width: 767px) {
 	.hero, .tier-2, .tier-3, .tier-4, .tier-5, .tier-6, .tier-7, .tier-8 {height:auto;}
 	body {font-size:14px;}
+	h3 {font-size: 26px;}
+	h4 {font-size: 32px;}
+	h5 {font-size: 24px;}
+	.wrap {height:0;overflow:hidden;}
+	.hero {background:none;}
+	.hero-b .container {min-height:auto;padding-bottom:180px;padding-top:20px;position:relative;}
+	.btl-con {top: 100px;width:270px;}
+	.btl-ttl {
+		bottom: calc(100% - 16px);
+		font-size: 3.25em;
+		-webkit-text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+		text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);   
+	}
+	.btl-snip {width: 80%;}
+	.hero p {margin-top: 40px;}
+	.hero-b, .tier-3, .tier-4, .tier-5, .tier-6, .tier-7 {overflow-x: clip;}
+	.tier-3 .adj-2, .tier-4 .adj-2, .tier-6 .adj-2, .tier-7 .adj-2 {
+        margin-top: auto;
+        position: absolute;
+        bottom: 0;
+		z-index: 2;
+    }
+	.hero .adj-5 {margin-top:0;position:absolute;width:80%;top:0;left:10%;}
+	.hero .adj-6, .hero .adj-7 {bottom: -80px;width: 40%;}
+	.hero .adj-6 {left: -45px;}
+	.hero .adj-7 {right: -45px;}
+	.tier-3 .hbox, .tier-4 .hbox, .tier-6 .hbox, .tier-7 .hbox {
+		padding-bottom: 5px;
+		padding-top:5px;
+		width: 70%;}
+	.tier-3 .btl-con, .tier-6 .btl-con {right:21%;}
+	.tier-4 .btl-con, .tier-7 .btl-con {left:-13%;transform:none;}
+	.tier-3 .btl-snip {bottom: auto;top: 80px;}
+	.tier-3 .s1 {font-size: 1.3em;}
+	.tier-3 .s2 {font-size: 1.9em;}
+	.tier-3 .s3 {font-size: 2.4em;}
+	.tier-3 {background-position: top 0 right 38%;}
+	.tier-3 .container {height:430px;}
+	.tier-3 h4 {margin-top: -41px;}
+	.tier-3 h4.stroke::before {-webkit-text-stroke: 8px #101113;}
+	.tier-3 .adj-1 {margin-top: 55px;}
+	.tier-4 .adj-1, .tier-7 .adj-1 {margin-top: 85px;}
+	.tier-4 {background-position: top 0 right -256px;}
+	.tier-4 .container {height:437px;}
+	.tier-4 .col-sm-5, .tier-7 .col-sm-5 {margin-left:30%;}
+	.tier-4 .adj-2, .tier-7 .adj-2 {right:0;}
+	.tier-4 .s1 {font-size: 26px;}
+	.tier-4 .s2 {font-size: 28px;}
+	.tier-4 .s3 {font-size: 26px;}
+	.tier-4 .btl-snip {bottom: auto;top: 100px;}
+	.tier-5 {background-size: 780px;background-position: top 0 left -70px;min-height:163px;}
+	.tier-5 ul li::before {width: 24px;height: 32px;left:50px;}
+	.tier-5 ul li.s1 {font-size: 20px;}
+	.tier-5 ul li.s2 {font-size: 22px;}
+	.tier-5 ul li.s3 {font-size: 23px;}
+	.tier-5 ul li.s4 {font-size: 23px;}
+	.tier-6 {background-position: top 0 right -540px;}
+	.tier-6 .container {height:436px;}
+	.tier-6 .adj-1 {margin-top: 85px;}
+	.tier-6 .btl-snip {bottom: auto;top: 85px;}
+	.tier-6 .s1 {font-size: 26px;}
+	.tier-6 .s2 {font-size: 42px;}
+	.tier-6 .s3 {font-size: 32px;}
+	.tier-7 {background-position: top 0 right -340px;}
+	.tier-7 .container {height:436px;}
+	.tier-7 .btl-snip {bottom: auto;top: 90px;}
+	.tier-7 .s1 {font-size: 26px;}
+	.tier-7 .s2 {font-size: 28px;}
+	.tier-7 .s3 {font-size: 28px;}
+	.tier-8 {background-size: 1920px;background-position: center center;}
+	.tier-9, .tier-9b {background-size:480px;}
+	.tier-9b img {width:60%;}
+	.tier-9b .row {margin-top:30px;}
+	.tier-9 .adj-2, .tier-9 .adj-3, .tier-9 .adj-4, .tier-9 .adj-5 {margin-top: -65px;}
+	.tier-10 {background-size:480px;}
+	.tier-10 h2 {font-size: 40px;}
+	.tier-10 .hbox {padding: 5px 0;}
+	.tier-10 .col-sm-4 {width:80%;margin:0 auto 50px;}
+	.tier-11 {background-size:660px;}
+	.tier-11b {min-height: auto;background-size: 1600px;background-position: bottom 0 right -300px;padding-bottom: 50px;}
+	.tier-11 h6 {text-align: center;text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);}
+	.tier-11 .adj-1 {top: 130px;}
+	.tier-11 .adj-2 {margin-top: -53px;padding: 0 5px;}
+	.tier-11 .adj-3 {margin-top: 500px;padding: 0 15px;}
+	.tier-11 .adj-4 img {width:50%;}
+	.tier-11 .cta {width: 80%;margin: 0 auto;}
+	.tier-11 .col-xs-3 {padding:0 5px;}
 	.tier-12 {padding-bottom: 100px;background-size: 780px;}
     .insta-logo {width: 15%;}
     footer {background-image:none;background-color:#000;}
     footer .adj-4 {margin-top:30px;}
+}
+@media (max-width: 411px) {
+	.tier-3 {
+        background-position: top 0 right 36%;
+    }
+	.tier-4 {
+        background-position: top 0 right -297px;
+    }
+	.tier-6 {
+        background-position: top 0 right -575px;
+    }
+	.tier-7 {
+        background-position: top 0 right -360px;
+    }
+	.tier-8 {
+        background-size: 2050px;
+    }
+	.tier-11 {
+        background-size: 600px;
+    }
+	.tier-11b {background-position: bottom 0 right -305px;}
+	.tier-11 .adj-3 {
+        margin-top: 470px;
+        padding: 0 15px;
+    }
+}
+@media (max-width: 389px) {
+	.tier-4 {
+        background-position: top 0 right -305px;
+    }
+	.tier-5 ul li.s1 {font-size: 18px;}
+	.tier-5 ul li.s2 {font-size: 20px;}
+	.tier-5 ul li.s3 {font-size: 21px;}
+	.tier-5 ul li.s4 {font-size: 21px;}
+	.tier-11 {
+        background-size: 570px;
+    }
+	.tier-11 h5 {
+        font-size: 24px;
+    }
+}
+@media (max-width: 374px) {
+	h3 {
+        font-size: 24px;
+    }
+	h4 {
+        font-size: 30px;
+    }
+	h6 {
+        font-size: 26px;
+    }
+	.hero .adj-5 h3 {
+        font-size: 14px;
+    }
+	.hero .adj-6, .hero .adj-7 {
+        bottom: -50px;
+    }
+	.tier-3 {
+        background-position: top 0 right 35%;
+    }
+	.tier-4 {
+        background-position: top 0 right -320px;
+    }
+	.tier-6 {
+        background-position: top 0 right -581px;
+    }
+	.tier-7 {
+        background-position: top 0 right -370px;
+    }
+	.tier-11 h5 {
+        font-size: 22px;
+    }
+	.tier-11 .adj-3 {
+        margin-top: 450px;
+    }
+}
+@media (max-width: 359px) {
+	h3 {
+        font-size: 20px;
+    }
+	h6 {
+        font-size: 24px;
+    }
+	.tier-4 .btl-con, .tier-7 .btl-con {
+        left: -21%;
+        transform: none;
+    }
+	.tier-5 ul {
+        margin-top: 45px;
+    }
+	.tier-5 ul li.s1 {
+        font-size: 15px;
+    }
+	.tier-5 ul li.s2 {
+        font-size: 17px;
+    }
+	.tier-5 ul li.s3 {
+        font-size: 18px;
+    }
+	.tier-5 ul li.s4 {
+        font-size: 18px;
+    }
+	.tier-8 {
+        background-size: 2150px;
+    }
+	.tier-11 h5 {
+        font-size: 20px;
+    }
+	.tier-11 .adj-3 {
+        margin-top: 400px;
+    }
 }
