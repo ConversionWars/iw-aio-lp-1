@@ -1,7 +1,7 @@
 <?php
  include('template/header.php'); 
 ?>
-
+    <div class="header-img"><img src="img/header-m.png" class="img-responsive visible-xs" /></div>
     <div class="hero">
         <div class="hero-b">
         <img src="img/hero-m.webp" class="img-responsive visible-xs" />
@@ -340,7 +340,8 @@
             <div class="container pos">
                 <div class="row">
                     <div class="col-sm-9 adj-1">
-                        <img src="img/close-prod.webp" class="img-responsive" />
+                        <img src="img/close-prod.webp" class="img-responsive pos" />
+                        <div class="price"></div>
                     </div>
                     <div class="col-sm-12 adj-2">
                         <h4 class="text-center black white-wk stroke">Ready to transform your daily grind into <span class="pink">Daily Greatness?</span></h4>

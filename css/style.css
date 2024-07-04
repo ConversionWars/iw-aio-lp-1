@@ -13,6 +13,8 @@ h6 {font-size:60px;text-align:center;}
 .float-right {float:right;}
 .clearfix {float:none;}
 
+.header-img {height:227px;background:url(../img/header.png) center top no-repeat;}
+
 .black {color:#101113;}
 .black-wk {-webkit-text-fill-color: #101113;}
 .white {color:#fff;}
@@ -314,6 +316,16 @@ h6 {font-size:60px;text-align:center;}
 	top:580px;
 	left:-100px;
 }
+.tier-11 .adj-1 .price {
+	position:absolute;
+	width:233px;
+	height:108px;
+	background:url(../img/discount.png) center top no-repeat;
+	right:70px;
+	top:33%;
+	z-index:2;
+	background-size:100%;
+}
 .tier-11 .adj-2 {margin-top:100px;padding:0 100px;}
 .tier-11 .adj-3 {margin-top:680px;padding:0 28px;}
 .tier-11 .adj-4 {margin-top:30px;}
@@ -360,8 +372,10 @@ footer .adj-4 p {font-size:18px;}
 
 @media (min-width: 1921px) {.ultra-wrap {-webkit-box-shadow:0 0 50px rgba(0,0,0,0.35); box-shadow:0 0 50px rgba(0,0,0,0.35);}}
 @media (max-width: 1750px) {.tier-12 .blurb {font-size: 20px;}}
+@media (max-width:1500px) {.header-img {background-size: 2660px;height:147px;}}
 @media (max-width:1400px) {.hero .adj-6 {left:0;}.hero .adj-7 {right:0;}}
 @media (max-width: 1199px) {
+	.header-img {background-size: 2490px;height: 137px;}
 	body {font-size:18px;}
 	h3 {font-size: 40px;}
 	h4 {font-size: 64px;}
@@ -424,6 +438,7 @@ footer .adj-4 p {font-size:18px;}
 	footer .adj-1 {font-size: 20px;}
 }
 @media (max-width: 991px) {
+	.header-img {background-size: 1890px;height: 102px;}
 	body {font-size:14px;}
 	h3 {font-size: 30px;}
 	h4 {font-size: 50px;}
@@ -499,6 +514,7 @@ footer .adj-4 p {font-size:18px;}
 	.tier-10 .adj-2 {margin-top: 10px;}
 	.tier-11b {min-height: 1300px;}
 	.tier-11 .adj-1 {top: 440px;}
+	.tier-11 .adj-1 .price {width:173px;height:81px;}
 	.tier-11 .adj-2 {margin-top: 70px;padding: 0 90px;}
 	.tier-11 .adj-3 {margin-top: 470px;padding: 0 15px;}
 	.tier-11 .adj-6 {margin-top: 28px;}
@@ -510,6 +526,7 @@ footer .adj-4 p {font-size:18px;}
 }
 @media (max-width: 767px) {
 	.hero, .tier-2, .tier-3, .tier-4, .tier-5, .tier-6, .tier-7, .tier-8 {height:auto;}
+	.header-img {background:none;height:auto;}
 	body {font-size:14px;}
 	h3 {font-size: 26px;}
 	h4 {font-size: 32px;}
@@ -593,6 +610,7 @@ footer .adj-4 p {font-size:18px;}
 	.tier-11b {min-height: auto;background-size: 1600px;background-position: bottom 0 right -300px;padding-bottom: 50px;}
 	.tier-11 h6 {text-align: center;text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);}
 	.tier-11 .adj-1 {top: 130px;}
+	.tier-11 .adj-1 .price {width: 155px;height: 73px;}
 	.tier-11 .adj-2 {margin-top: -53px;padding: 0 5px;}
 	.tier-11 .adj-3 {margin-top: 500px;padding: 0 15px;}
 	.tier-11 .adj-4 img {width:50%;}
